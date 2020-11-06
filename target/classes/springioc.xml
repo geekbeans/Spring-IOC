@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+ http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-4.3.xsd
+">
+<!--在此处创建开发所需要抽象出来的对象-->
+<!--id表示所创建对象名字-->
+<!--class表示创建实体类对象路径-->
+<!--<property name="xx" value="xx"></property>表示自己需要赋值的内容-->
+<!--无参构造配置-->
+<!--   <bean id="student" class="com.czhspringreview.entity.Student">-->
+<!--       <property name="id" value="2"></property>-->
+<!--       <property name="age" value="20"></property>-->
+<!--       <property name="name" value="大猫"></property>-->
+<!--然后利用ref引用-->
+<!--       <property name="address" ref="address"></property>-->
+<!--   </bean>-->
+
+<!--有参构造配置-->
+<!--    <bean id="stdent2" class="com.czhspringreview.entity.Student">-->
+<!--        <constructor-arg name="id" value="1"></constructor-arg>-->
+<!--        <constructor-arg name="age" value="21"></constructor-arg>-->
+<!--        <constructor-arg name="name" value="河山"></constructor-arg>-->
+<!--        <constructor-arg name="address" ref="address"></constructor-arg>-->
+<!--    </bean>-->
+
+<!--address集合的配置方式-->
+    <bean id="student3" class="com.czhspringreview.entity.Student">
+        <constructor-arg name="id" value="1"></constructor-arg>
+        <constructor-arg name="age" value="21"></constructor-arg>
+        <constructor-arg name="name" value="河山"></constructor-arg>
+        <constructor-arg name="addresses">
+            <list>
+                <ref bean="address1"></ref>
+                <ref bean="address2"></ref>
+            </list>
+        </constructor-arg>
+    </bean>
+
+<!--继承bean-->
+    <bean id="stu" class="com.czhspringreview.entity.Student" parent="student3">
+        <constructor-arg name="name" value="河山"></constructor-arg>
+    </bean>
+
+<!--再配置一个对应的address bean文件-->
+    <bean id="address1" class="com.czhspringreview.entity.Address">
+        <property name="id" value="1"></property>
+        <property name="name" value="成功路"></property>
+    </bean>
+
+    <bean id="address2" class="com.czhspringreview.entity.Address">
+        <property name="id" value="2"></property>
+        <property name="name" value="胜利路"></property>
+    </bean>
+</beans>

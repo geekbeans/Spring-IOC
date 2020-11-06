@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc7e7ab7-4ce9-460a-8f11-a0c5acac78a2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\myjava_maven\maven_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../myjava_maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\myjava_maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="11" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1jfgod1DXSz7KJYiiq389dqmHz1" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15136719" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.SpringIocAutowireTest">
+    <configuration name="InstanceFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czhspringreview.InstanceFactoryTest" />
+      <module name="spring_review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czhspringreview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDependTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czhspringreview.SpringDependTest" />
+      <module name="spring_review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czhspringreview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringIocAutowireTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czhspringreview.SpringIocAutowireTest" />
+      <module name="spring_review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czhspringreview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringPTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czhspringreview.SpringPTest" />
+      <module name="spring_review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czhspringreview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.czhspringreview.StaticFactoryTest" />
+      <module name="spring_review" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.czhspringreview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringIocAutowireTest" />
+        <item itemvalue="Application.InstanceFactoryTest" />
+        <item itemvalue="Application.StaticFactoryTest" />
+        <item itemvalue="Application.SpringPTest" />
+        <item itemvalue="Application.SpringDependTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc7e7ab7-4ce9-460a-8f11-a0c5acac78a2" name="Default Changelist" comment="" />
+      <created>1604200735832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604200735832</updated>
+      <workItem from="1604200738344" duration="16892000" />
+      <workItem from="1604369927311" duration="3173000" />
+      <workItem from="1604456564667" duration="4582000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="526" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1604220141922">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="526" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1440.920@0.0.1440.920" timestamp="1604220141922" />
+    <state x="501" y="219" key="FileChooserDialogImpl" timestamp="1604476025470">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="501" y="219" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1604476025470" />
+    <state width="1397" height="210" key="GridCell.Tab.0.bottom" timestamp="1604476047831">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="210" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1604476047831" />
+    <state width="1397" height="210" key="GridCell.Tab.0.center" timestamp="1604476047831">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="210" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1604476047831" />
+    <state width="1397" height="210" key="GridCell.Tab.0.left" timestamp="1604476047830">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="210" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1604476047830" />
+    <state width="1397" height="210" key="GridCell.Tab.0.right" timestamp="1604476047831">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="210" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1604476047831" />
+    <state x="201" y="39" key="SettingsEditor" timestamp="1604221194891">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="201" y="39" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1604221194891" />
+    <state x="108" y="165" key="new project wizard" timestamp="1604476042324">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="108" y="165" key="new project wizard/0.0.1440.920@0.0.1440.920" timestamp="1604476042324" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1604460325383">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1604460325383" />
+  </component>
+</project>
